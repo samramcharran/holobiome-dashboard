@@ -72,3 +72,30 @@ st.plotly_chart(fig3, use_container_width=True)
 # Data table
 st.header(" Sample Data")
 st.dataframe(filtered_df.head(100))
+
+# Credits and References
+st.markdown("---")
+st.header("References & Data Sources")
+st.markdown("""
+**This dashboard was created for educational purposes as part of a job application project.**
+
+### Data Sources
+All data was obtained from publicly available sources:
+- **NCBI SRA (Sequence Read Archive)**: https://www.ncbi.nlm.nih.gov/sra
+- **NCBI BioProject**: https://www.ncbi.nlm.nih.gov/bioproject
+
+### Studies Referenced
+1. **PRJNA521587** - Fibromyalgia gut microbiome study
+2. **PRJNA375935** - Ankylosing Spondylitis gut microbiome study  
+3. **PRJEB6997** - Rheumatoid Arthritis oral/gut microbiome study
+4. **PRJDB7767** - Multiple Sclerosis gut microbiome study
+5. **PRJNA1289847** - FMT in Cancer immunotherapy trial
+
+### Tools Used
+- **Claude (Anthropic)** - AI assistance for data harmonization
+- **Google Colab** - Code execution environment
+- **Streamlit** - Dashboard framework
+- **Plotly** - Data visualization
+
+*Data used under fair use for educational and demonstration purposes.*
+""")
