@@ -118,8 +118,46 @@ https://holobiome-dashboard-mdypf2e3sxnbppavf6sdhh.streamlit.app/
 ### External Sources Checked
 - PDF papers: Read all 5 main papers and PDF supplements using PyMuPDF
 - Excel supplements: Parsed all provided Excel files
+- CSV files: PRJNA521587.csv, PRJDB7767.csv, PRJEB6997.csv, PRJNA1289847.csv, ERP005860_SRP100575.csv
 - GitHub: Found and used https://github.com/gonzalezem/Fibromyalgia
 - Zenodo: Checked FMT paper link (https://zenodo.org/records/12820832) - only contained reference genomes, not patient clinical data
+
+## References (Papers Used)
+
+1. **Fibromyalgia (PRJNA521587)**
+   - Minerbi A, Gonzalez E, Brereton NJB, et al. "Altered microbiome composition in individuals with fibromyalgia." *Pain*. 2019.
+
+2. **Multiple Sclerosis (PRJDB7767)**
+   - Takewaki D, Suda W, Sato W, et al. "Alterations of the gut ecological and functional microenvironment in different stages of multiple sclerosis." *PNAS*. 2020.
+
+3. **Rheumatoid Arthritis (PRJEB6997)**
+   - Zhang X, et al. "The oral and gut microbiomes are perturbed in rheumatoid arthritis and partly normalized after treatment." *Nature Medicine*. 2015;21(8):895.
+
+4. **Cancer FMT Trial (PRJNA1289847)**
+   - "Fecal microbiota transplantation plus immunotherapy in non-small cell lung cancer and melanoma: the phase 2 FMT-LUMINate trial." *Nature Medicine*. 2025.
+
+5. **Ankylosing Spondylitis (PRJNA375935 / ERP005860)**
+   - Wen C, Zheng Z, Shao T, et al. "Quantitative metagenomics reveals unique gut microbiome biomarkers in ankylosing spondylitis." *Genome Biology*. 2017.
+
+## Input Files Used
+
+### CSV Files (from SRA)
+- PRJNA521587.csv (156 samples) - Fibromyalgia
+- PRJDB7767.csv (118 samples) - Multiple Sclerosis
+- PRJEB6997.csv (530 samples) - Rheumatoid Arthritis
+- PRJNA1289847.csv (208 samples) - Cancer FMT Trial
+- ERP005860_SRP100575.csv (211 samples) - Ankylosing Spondylitis
+
+### Excel Supplements
+- supp-ERP005860_SRP100575.xlsx - AS clinical data (BMI, age, sex, HLA-B27)
+- supp-PRJEB6997.xlsx - RA clinical data (trap - no bridge key)
+- fibro_supplement.xlsx - FM clinical data from GitHub
+
+### PDF Papers & Supplements
+- 5 main papers (listed above)
+- supp-PRJDB7767.pdf - MS supplement (group averages only)
+- supp-PRJNA521587.pdf - FM supplement (led to GitHub discovery)
+- supp-PRJNA1289847.pdf - FMT supplement (no patient-level data)
 
 ## Running the Dashboard
 ```bash
