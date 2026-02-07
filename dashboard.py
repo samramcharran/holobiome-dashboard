@@ -35,14 +35,14 @@ col3.metric("With Age Data", filtered_df["host_age"].notna().sum())
 col4.metric("With BMI Data", filtered_df["bmi"].notna().sum())
 
 # Conquest Map - Samples per study
-st.header("📊 Conquest Map: Samples per Study")
+st.header(" Conquest Map: Samples per Study")
 study_counts = filtered_df["study_id"].value_counts().reset_index()
 study_counts.columns = ["Study", "Samples"]
 fig1 = px.bar(study_counts, x="Study", y="Samples", color="Samples")
 st.plotly_chart(fig1, use_container_width=True)
 
 # Forensics Heatmap - Data Missingness
-st.header("🔍 Forensics Heatmap: Data Completeness by Study")
+st.header(" Forensics Heatmap: Data Completeness by Study")
 cols_to_check = ["host_age", "host_sex", "bmi", "disease_status", "timepoint"]
 missingness = []
 for study in df["study_id"].unique():
@@ -63,12 +63,12 @@ fig2 = px.imshow(miss_df, text_auto=".0f", aspect="auto",
 st.plotly_chart(fig2, use_container_width=True)
 
 # Disease distribution
-st.header("🏥 Disease Distribution")
+st.header(" Disease Distribution")
 disease_counts = filtered_df["disease_status"].value_counts().reset_index()
 disease_counts.columns = ["Disease", "Count"]
 fig3 = px.pie(disease_counts, values="Count", names="Disease")
 st.plotly_chart(fig3, use_container_width=True)
 
 # Data table
-st.header("📋 Sample Data")
+st.header(" Sample Data")
 st.dataframe(filtered_df.head(100))
