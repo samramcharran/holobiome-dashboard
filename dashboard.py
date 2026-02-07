@@ -14,23 +14,26 @@ def load_data():
 
 df = load_data()
 
-# Map study IDs to disease names (5 studies only)
-study_to_disease = {
-    'PRJNA375935': 'Ankylosing Spondylitis',
-    'PRJNA521587': 'Fibromyalgia',
-    'PRJDB7767': 'Multiple Sclerosis',
-    'PRJNA1289847': 'Cancer (FMT Trial)',
-    'PRJEB6997': 'Rheumatoid Arthritis'
+# Map disease to study ID
+disease_to_study = {
+    'Ankylosing Spondylitis': 'PRJNA375935',
+    'Fibromyalgia': 'PRJNA521587',
+    'Multiple Sclerosis': 'PRJDB7767',
+    'Cancer (FMT Trial)': 'PRJNA1289847',
+    'Rheumatoid Arthritis': 'PRJEB6997'
 }
 
-# Sidebar filter
+study_to_disease = {v: k for k, v in disease_to_study.items()}
+
+# Sidebar filter - just disease names
 st.sidebar.header("Filters")
-study_options = ["All"] + sorted(df["study_id"].dropna().unique().tolist())
-selected_study = st.sidebar.selectbox("Study", study_options)
+disease_options = ["All"] + sorted(disease_to_study.keys())
+selected_disease = st.sidebar.selectbox("Disease", disease_options)
 
 # Apply filter
 filtered_df = df.copy()
-if selected_study != "All":
+if selected_disease != "All":
+    selected_study = disease_to_study[selected_disease]
     filtered_df = filtered_df[filtered_df["study_id"] == selected_study]
 
 # Metrics
@@ -41,44 +44,59 @@ col2.metric("Studies", filtered_df["study_id"].nunique())
 col3.metric("With BMI", filtered_df["bmi"].notna().sum())
 col4.metric("With Age", filtered_df["host_age"].notna().sum())
 
-# Conquest Map
-st.header("Samples per Study")
-study_counts = filtered_df.groupby("study_id").size().reset_index(name="samples")
-fig1 = px.bar(study_counts, x="study_id", y="samples", color="samples", color_continuous_scale="Viridis")
-st.plotly_chart(fig1, use_container_width=True)
+if selected_disease == "All":
+    # Study Summary Table
+    st.header("Study Overview")
+    summary_data = []
+    for disease, study_id in disease_to_study.items():
+        study_df = df[df['study_id'] == study_id]
+        summary_data.append({
+            'Disease': disease,
+            'Study ID': study_id,
+            'Samples': len(study_df),
+            'With Age': study_df['host_age'].notna().sum(),
+            'With BMI': study_df['bmi'].notna().sum()
+        })
+    summary_df = pd.DataFrame(summary_data)
+    st.dataframe(summary_df, use_container_width=True, hide_index=True)
 
-if selected_study == "All":
-    # Forensics Heatmap - only on "All"
-    st.header("Forensics Heatmap: Data Completeness by Study")
+    # Samples per Study Bar Chart
+    st.header("Samples by Disease")
+    fig1 = px.bar(summary_df, x='Disease', y='Samples', color='Samples', 
+                  color_continuous_scale='Viridis',
+                  hover_data=['Study ID'])
+    st.plotly_chart(fig1, use_container_width=True)
+
+    # Forensics Heatmap
+    st.header("Data Completeness Heatmap")
     clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", "timepoint"]
     completeness_data = []
-    for study in df["study_id"].unique():
-        study_df = df[df["study_id"] == study]
-        row = {"study_id": study}
+    for disease, study_id in disease_to_study.items():
+        study_df = df[df["study_id"] == study_id]
+        row = {"Disease": disease}
         for col in clinical_cols:
             if col in study_df.columns:
                 pct = (study_df[col].notna().sum() / len(study_df)) * 100
-                row[col] = pct
+                row[col] = round(pct, 0)
         completeness_data.append(row)
 
-    completeness_df = pd.DataFrame(completeness_data).set_index("study_id")
+    completeness_df = pd.DataFrame(completeness_data).set_index("Disease")
     fig2 = px.imshow(completeness_df, color_continuous_scale="RdYlGn", aspect="auto",
-                     labels=dict(x="Variable", y="Study", color="% Complete"))
+                     labels=dict(x="Variable", y="Disease", color="% Complete"),
+                     text_auto=True)
     st.plotly_chart(fig2, use_container_width=True)
 
-    # Disease Distribution
+    # Disease Distribution Pie
     st.header("Disease Distribution")
-    disease_counts = filtered_df["disease_status"].value_counts().reset_index()
-    disease_counts.columns = ["disease_status", "count"]
-    fig_disease = px.pie(disease_counts, names="disease_status", values="count")
-    st.plotly_chart(fig_disease, use_container_width=True)
+    fig3 = px.pie(summary_df, names='Disease', values='Samples')
+    st.plotly_chart(fig3, use_container_width=True)
     
-    st.info("Select a specific study to view detailed demographics and sample data.")
+    st.info("Select a specific disease from the sidebar to view detailed demographics and sample data.")
 
 else:
-    # Show disease name
-    disease_name = study_to_disease.get(selected_study, "Unknown")
-    st.subheader(f"Disease: {disease_name}")
+    # Show study ID for selected disease
+    study_id = disease_to_study[selected_disease]
+    st.subheader(f"Study ID: {study_id}")
     
     # Demographics
     st.header("Demographics")
@@ -104,7 +122,7 @@ else:
     st.header("BMI Distribution")
     bmi_df = filtered_df[filtered_df["bmi"].notna()]
     if len(bmi_df) > 0:
-        fig5 = px.box(bmi_df, x="study_id", y="bmi", color="study_id")
+        fig5 = px.box(bmi_df, y="bmi", title="BMI Distribution")
         st.plotly_chart(fig5, use_container_width=True)
     else:
         st.write("No BMI data for this study.")
