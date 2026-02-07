@@ -4,7 +4,7 @@
 Harmonization of 5 microbiome study datasets into a single, ML-ready TSV file.
 
 ## Deliverables
-1. harmonized_metadata.tsv - Unified metadata file (1,535 samples, 28 columns)
+1. harmonized_metadata.tsv - Unified metadata file (1,223 samples, 28 columns)
 2. dashboard.py - Streamlit visualization dashboard
 3. data_dictionary.md - Column definitions and controlled vocabulary
 4. README.md - This file
@@ -12,23 +12,20 @@ Harmonization of 5 microbiome study datasets into a single, ML-ready TSV file.
 ## Live Dashboard
 https://holobiome-dashboard-mdypf2e3sxnbppavf6sdhh.streamlit.app/
 
-## Studies Processed
+## Studies Processed (5 studies)
 | Study ID | Disease | Samples | Clinical Richness |
 |----------|---------|---------|-------------------|
 | PRJNA375935 | Ankylosing Spondylitis | 211 | RICH - BMI, age, sex, HLA-B27, treatment |
-| PRJNA521587 | Fibromyalgia | 156 | RICH - BMI, age, sex, IBS, depression, ethnicity, antibiotic_status |
-| PRJDB7767 | Multiple Sclerosis | 118 | RICH - age, sex, disease_status, antibiotic_status, relapse_status (100%) |
-| PRJEB6997 | Rheumatoid Arthritis | 530 | PARTIAL - ethnicity, age_range, antibiotic_status (inferred) |
-| PRJEB6337 | Rheumatoid Arthritis | 312 | PARTIAL - ethnicity, age_range, antibiotic_status (inferred) |
-| PRJNA1289847 | Cancer (FMT Trial) | 208 | PARTIAL - disease_stage, treatment (inferred) |
+| PRJNA521587 | Fibromyalgia | 156 | RICH - BMI, age, sex, IBS, depression, anxiety |
+| PRJDB7767 | Multiple Sclerosis | 118 | RICH - age, sex, disease_status, relapse_status (100%) |
+| PRJEB6997 | Rheumatoid Arthritis | 530 | PARTIAL - ethnicity, age_range, antibiotic_status (implicit) |
+| PRJNA1289847 | Cancer (FMT Trial) | 208 | PARTIAL - disease_status only |
 
 ## Data Completeness
-- host_age: 29.6% (454/1535)
-- host_sex: 29.6% (454/1535)
-- bmi: 21.9% (336/1535)
-- disease_status: 79.7%
-- antibiotic_status: 72.7% (1116/1535)
-- ethnicity: 65.0% (998/1535)
+- host_age: 37.0% (452/1223)
+- host_sex: 37.0% (452/1223)
+- bmi: 27.5% (336/1223)
+- disease_status: 100%
 - run_accessions: 100%
 
 ## Clinically Rich Datasets (3 of 5)
@@ -63,7 +60,7 @@ https://holobiome-dashboard-mdypf2e3sxnbppavf6sdhh.streamlit.app/
 
 **1. PDF Text Parsing**
 - Used PyMuPDF (fitz) library with Claude-generated code to extract text from all PDF papers
-- Claude searched extracted text for keywords: "github", "zenodo", "data availability", "inclusion criteria", "all patients were", etc.
+- Claude searched extracted text for keywords: "github", "zenodo", "data availability", "inclusion criteria"
 - This led to discovering the Fibromyalgia GitHub repository containing rich clinical data
 
 **2. Code Generation**
@@ -86,11 +83,6 @@ https://holobiome-dashboard-mdypf2e3sxnbppavf6sdhh.streamlit.app/
   - "majority of participants were of Caucasian ethnicity" -> ethnicity
   - "No patients had an active relapse at the time of study enrollment" -> relapse_status
   - "between 18 and 65 years old" -> age_range
-
-**5. Iterative Problem-Solving**
-- When initial submission only had 1 rich dataset, Claude helped identify missing sources
-- Systematic search of PDFs found GitHub link that was initially missed
-- Added implicit data extraction to maximize information from all papers
 
 ### Workflow
 1. Uploaded CSVs and Excel supplements to Google Colab
@@ -117,23 +109,17 @@ https://holobiome-dashboard-mdypf2e3sxnbppavf6sdhh.streamlit.app/
 - PRJDB7767 (Multiple Sclerosis): Complete demographics from SRA + implicit data from paper
 
 ### Partially Harmonized (Implicit Data Only)
-- PRJEB6997 and PRJEB6337 (Rheumatoid Arthritis): No bridge key for Excel data, but extracted implicit data (Chinese ethnicity, age 18-65, no antibiotics 1 month)
-- PRJNA1289847 (FMT Cancer Trial): Disease stage and treatment status inferred from paper
+- PRJEB6997 (Rheumatoid Arthritis): No bridge key for Excel data, but extracted implicit data (Chinese ethnicity, age 18-65, no antibiotics 1 month)
+- PRJNA1289847 (FMT Cancer Trial): Disease status from SRA only
 
 ### Trap Dataset Explanation
-- PRJEB6997/PRJEB6337 (RA): Excel supplement has rich individual data (D99, D98 sample IDs with BMI, age, treatment) but CSV uses different IDs (SAMEA2737881). Searched for mapping in paper and supplement - none exists. Confirmed as trap dataset. Extracted all available implicit data instead.
+- PRJEB6997 (RA): Excel supplement has rich individual data (D99, D98 sample IDs with BMI, age, treatment) but CSV uses different IDs (SAMEA2737881). Searched for mapping in paper and supplement - none exists. Confirmed as trap dataset. Extracted all available implicit data instead.
 
 ### External Sources Checked
 - PDF papers: Read all 5 main papers and PDF supplements using PyMuPDF
 - Excel supplements: Parsed all provided Excel files
 - GitHub: Found and used https://github.com/gonzalezem/Fibromyalgia
 - Zenodo: Checked FMT paper link (https://zenodo.org/records/12820832) - only contained reference genomes, not patient clinical data
-- Phase 1 trial: FMT paper references Routy et al. 2023 phase 1 trial but PDF not in folder
-
-### What Would Improve Results
-- Access to RA bridge key mapping (would add BMI, detailed treatment for 530+ samples)
-- FMT phase 1 trial paper (might have patient-level clinical data)
-- Contact with study authors for unmapped data
 
 ## Running the Dashboard
 ```bash
@@ -142,7 +128,7 @@ streamlit run dashboard.py
 ```
 
 ## Files
-- harmonized_metadata.tsv - Final harmonized dataset (1,535 samples, 28 columns)
+- harmonized_metadata.tsv - Final harmonized dataset (1,223 samples, 28 columns)
 - dashboard.py - Streamlit dashboard
 - data_dictionary.md - Column definitions
 - README.md - This documentation

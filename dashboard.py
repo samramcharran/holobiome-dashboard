@@ -14,37 +14,19 @@ def load_data():
 
 df = load_data()
 
-# Map study IDs to disease names
+# Map study IDs to disease names (5 studies only)
 study_to_disease = {
     'PRJNA375935': 'Ankylosing Spondylitis',
     'PRJNA521587': 'Fibromyalgia',
     'PRJDB7767': 'Multiple Sclerosis',
     'PRJNA1289847': 'Cancer (FMT Trial)',
-    'PRJEB6997': 'Rheumatoid Arthritis',
-    'PRJEB6337': 'Rheumatoid Arthritis'
+    'PRJEB6997': 'Rheumatoid Arthritis'
 }
 
-# Create display labels for filter
-study_labels = {
-    'PRJNA375935': 'PRJNA375935 - Ankylosing Spondylitis',
-    'PRJNA521587': 'PRJNA521587 - Fibromyalgia',
-    'PRJDB7767': 'PRJDB7767 - Multiple Sclerosis',
-    'PRJNA1289847': 'PRJNA1289847 - Cancer (FMT Trial)',
-    'PRJEB6997': 'PRJEB6997 - Rheumatoid Arthritis',
-    'PRJEB6337': 'PRJEB6337 - Rheumatoid Arthritis'
-}
-
-# Sidebar filter - renamed to Studies
+# Sidebar filter
 st.sidebar.header("Filters")
-study_options = ["All Studies"] + [study_labels[s] for s in sorted(df["study_id"].dropna().unique().tolist())]
-selected_display = st.sidebar.selectbox("Study", study_options)
-
-# Map back to study_id
-reverse_map = {v: k for k, v in study_labels.items()}
-if selected_display != "All Studies":
-    selected_study = reverse_map.get(selected_display)
-else:
-    selected_study = "All"
+study_options = ["All"] + sorted(df["study_id"].dropna().unique().tolist())
+selected_study = st.sidebar.selectbox("Study", study_options)
 
 # Apply filter
 filtered_df = df.copy()
@@ -59,16 +41,10 @@ col2.metric("Studies", filtered_df["study_id"].nunique())
 col3.metric("With BMI", filtered_df["bmi"].notna().sum())
 col4.metric("With Age", filtered_df["host_age"].notna().sum())
 
-# Conquest Map with disease names
+# Conquest Map
 st.header("Samples per Study")
 study_counts = filtered_df.groupby("study_id").size().reset_index(name="samples")
-study_counts["disease"] = study_counts["study_id"].map(study_to_disease)
-study_counts["label"] = study_counts["study_id"] + "<br>" + study_counts["disease"]
-
-fig1 = px.bar(study_counts, x="label", y="samples", color="samples", 
-              color_continuous_scale="Viridis",
-              labels={"label": "Study", "samples": "Samples"})
-fig1.update_layout(xaxis_tickangle=-45)
+fig1 = px.bar(study_counts, x="study_id", y="samples", color="samples", color_continuous_scale="Viridis")
 st.plotly_chart(fig1, use_container_width=True)
 
 if selected_study == "All":
@@ -78,15 +54,14 @@ if selected_study == "All":
     completeness_data = []
     for study in df["study_id"].unique():
         study_df = df[df["study_id"] == study]
-        disease = study_to_disease.get(study, "Unknown")
-        row = {"study": f"{study}\n{disease}"}
+        row = {"study_id": study}
         for col in clinical_cols:
             if col in study_df.columns:
                 pct = (study_df[col].notna().sum() / len(study_df)) * 100
                 row[col] = pct
         completeness_data.append(row)
 
-    completeness_df = pd.DataFrame(completeness_data).set_index("study")
+    completeness_df = pd.DataFrame(completeness_data).set_index("study_id")
     fig2 = px.imshow(completeness_df, color_continuous_scale="RdYlGn", aspect="auto",
                      labels=dict(x="Variable", y="Study", color="% Complete"))
     st.plotly_chart(fig2, use_container_width=True)
@@ -101,7 +76,7 @@ if selected_study == "All":
     st.info("Select a specific study to view detailed demographics and sample data.")
 
 else:
-    # Show disease name for selected study
+    # Show disease name
     disease_name = study_to_disease.get(selected_study, "Unknown")
     st.subheader(f"Disease: {disease_name}")
     

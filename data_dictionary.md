@@ -1,7 +1,17 @@
 # Data Dictionary
 
 ## Overview
-This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 columns)
+This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 columns)
+
+## Studies Included (5 studies)
+
+| Study ID | Disease | Samples | Data Source |
+|----------|---------|---------|-------------|
+| PRJNA375935 | Ankylosing Spondylitis | 211 | SRA + Excel Table S1 |
+| PRJNA521587 | Fibromyalgia | 156 | SRA + GitHub supplement |
+| PRJDB7767 | Multiple Sclerosis | 118 | SRA + implicit from paper |
+| PRJNA1289847 | Cancer (FMT Trial) | 208 | SRA |
+| PRJEB6997 | Rheumatoid Arthritis | 530 | SRA + implicit from paper |
 
 ## Required Columns (Holobiome Standard)
 
@@ -53,12 +63,6 @@ This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 
 |--------|------|-------------|---------|
 | relapse_status | string | Relapse status at enrollment | inactive_at_enrollment |
 
-### Cancer FMT Trial (PRJNA1289847)
-| Column | Type | Description | Example |
-|--------|------|-------------|---------|
-| disease_stage | string | Cancer stage | IV_or_unresectable |
-| min_age | string | Minimum age requirement | 18+ |
-
 ## Controlled Vocabulary
 
 ### disease_status
@@ -67,7 +71,6 @@ This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 
 - Multiple Sclerosis
 - Rheumatoid Arthritis
 - Cancer (FMT Trial)
-- Healthy Control
 
 ### host_sex
 - Male
@@ -79,7 +82,7 @@ This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 
 - no_antibiotics_at_collection (MS - exclusion if antibiotics during sample collection)
 
 ### ethnicity
-- Chinese (RA studies - conducted at Peking Union Medical College Hospital)
+- Chinese (RA study - conducted at Peking Union Medical College Hospital)
 - majority_caucasian (Fibromyalgia - paper states majority were Caucasian)
 
 ### source_provenance
@@ -89,7 +92,7 @@ This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 
 - SRA;Inferred_From_Paper (SRA + implicit data from paper text)
 
 ## Missingness Codes
-- NA: Data not available or not applicable
+- NA or NaN: Data not available or not applicable
 
 ## Data Sources by Study
 
@@ -98,6 +101,5 @@ This document defines all columns in harmonized_metadata.tsv (1,535 samples, 28 
 | PRJNA375935 | Ankylosing Spondylitis | SRA CSV | Excel Table S1 | - |
 | PRJNA521587 | Fibromyalgia | SRA CSV | GitHub | ethnicity, antibiotic_status |
 | PRJDB7767 | Multiple Sclerosis | SRA CSV | - | antibiotic_status, relapse_status |
-| PRJNA1289847 | Cancer (FMT Trial) | SRA CSV | - | disease_stage, treatment |
+| PRJNA1289847 | Cancer (FMT Trial) | SRA CSV | - | - |
 | PRJEB6997 | Rheumatoid Arthritis | SRA CSV | - | ethnicity, age_range, antibiotic_status |
-| PRJEB6337 | Rheumatoid Arthritis | SRA CSV | - | ethnicity, age_range, antibiotic_status |
