@@ -92,7 +92,10 @@ This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 
 - SRA;Inferred_From_Paper (SRA + implicit data from paper text)
 
 ## Missingness Codes
-- NA or NaN: Data not available or not applicable
+- NaN (blank): Data not available for this sample
+- 0: Actual zero value (e.g., ibs=0 means "No IBS", smoking=0 means "Non-smoker")
+
+Note: Empty cells in the TSV represent missing data (NaN). Zeros are real values, not placeholders for missing data.
 
 ## Data Sources by Study
 
