@@ -55,26 +55,26 @@ study_counts = filtered_df.groupby("study_id").size().reset_index(name="samples"
 fig1 = px.bar(study_counts, x="study_id", y="samples", color="samples", color_continuous_scale="Viridis")
 st.plotly_chart(fig1, use_container_width=True)
 
-# Forensics Heatmap - always show
-st.header("Forensics Heatmap: Data Completeness by Study")
-clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", "timepoint"]
-completeness_data = []
-for study in df["study_id"].unique():
-    study_df = df[df["study_id"] == study]
-    row = {"study_id": study}
-    for col in clinical_cols:
-        if col in study_df.columns:
-            pct = (study_df[col].notna().sum() / len(study_df)) * 100
-            row[col] = pct
-    completeness_data.append(row)
-
-completeness_df = pd.DataFrame(completeness_data).set_index("study_id")
-fig2 = px.imshow(completeness_df, color_continuous_scale="RdYlGn", aspect="auto",
-                 labels=dict(x="Variable", y="Study", color="% Complete"))
-st.plotly_chart(fig2, use_container_width=True)
-
-# Disease Distribution - show when "All" selected
 if selected_disease == "All":
+    # Forensics Heatmap - only on "All"
+    st.header("Forensics Heatmap: Data Completeness by Study")
+    clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", "timepoint"]
+    completeness_data = []
+    for study in df["study_id"].unique():
+        study_df = df[df["study_id"] == study]
+        row = {"study_id": study}
+        for col in clinical_cols:
+            if col in study_df.columns:
+                pct = (study_df[col].notna().sum() / len(study_df)) * 100
+                row[col] = pct
+        completeness_data.append(row)
+
+    completeness_df = pd.DataFrame(completeness_data).set_index("study_id")
+    fig2 = px.imshow(completeness_df, color_continuous_scale="RdYlGn", aspect="auto",
+                     labels=dict(x="Variable", y="Study", color="% Complete"))
+    st.plotly_chart(fig2, use_container_width=True)
+
+    # Disease Distribution
     st.header("Disease Distribution")
     disease_counts = filtered_df["disease_status"].value_counts().reset_index()
     disease_counts.columns = ["disease_status", "count"]
@@ -84,7 +84,7 @@ if selected_disease == "All":
     st.info("Select a specific disease status to view detailed demographics and sample data.")
 
 else:
-    # Demographics - only show when specific study selected
+    # Demographics
     st.header("Demographics")
     col1, col2 = st.columns(2)
 
@@ -113,7 +113,7 @@ else:
     else:
         st.write("No BMI data for this study.")
 
-    # Data Table - only show columns with data
+    # Data Table
     st.header("Sample Data")
     display_df = filtered_df.copy()
     cols_to_keep = []
