@@ -77,7 +77,7 @@ st.dataframe(filtered_df.head(100))
 st.markdown("---")
 st.header("References & Data Sources")
 st.markdown("""
-**This dashboard was created for educational purposes as part of a job application project.**
+**This dashboard was created for educational purposes as part of a job project.**
 
 ### Data Sources
 All data was obtained from publicly available sources:
@@ -92,11 +92,7 @@ All data was obtained from publicly available sources:
 5. **PRJDB7767** - Multiple Sclerosis gut microbiome study
 6. **PRJNA1289847** - FMT in Cancer immunotherapy trial
 
-### Tools Used
-- **Claude (Anthropic)** - AI assistance for data harmonization
-- **Google Colab** - Code execution environment
-- **Streamlit** - Dashboard framework
-- **Plotly** - Data visualization
+
 
 *Data used under fair use for educational and demonstration purposes.*
 """)
