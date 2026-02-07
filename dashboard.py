@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 
 st.set_page_config(page_title="Holobiome Data Dashboard", layout="wide")
-st.title(" 🦠 Holobiome Microbiome Metadata Dashboard")
+st.title("Holobiome Microbiome Metadata Dashboard")
 st.caption("Educational project - Data from public repositories")
 
 @st.cache_data
