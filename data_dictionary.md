@@ -18,7 +18,7 @@ This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 
 | Column | Type | Description | Example |
 |--------|------|-------------|---------|
 | study_id | string | BioProject ID | PRJNA521587 |
-| subject_id | string | Unique patient identifier | Pt_Fibro_122 |
+| subject_id | string | Unique patient identifier | Pt_Fibro_122, D69_G |
 | sample_id | string | Unique biological sample ID | SAMN10886076 |
 | timepoint | string | Collection timepoint | T1, V4, baseline |
 | run_accessions | string | Semicolon-delimited SRA Run IDs | SRR8556877;SRR8556878 |
@@ -92,17 +92,17 @@ This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 
 - SRA;Inferred_From_Paper (SRA + implicit data from paper text)
 
 ## Missingness Codes
-- NaN (blank): Data not available for this sample
+- NA: Data not available for this sample
 - 0: Actual zero value (e.g., ibs=0 means "No IBS", smoking=0 means "Non-smoker")
 
-Note: Empty cells in the TSV represent missing data (NaN). Zeros are real values, not placeholders for missing data.
+Note: Missing data is represented as "NA" in the TSV file. Zeros are real values, not placeholders for missing data.
 
 ## Data Sources by Study
 
 | Study ID | Disease | CSV | Excel | PDF | GitHub | Zenodo |
 |----------|---------|-----|-------|-----|--------|--------|
-| PRJNA375935 | Ankylosing Spondylitis | ✓ ERP005860_SRP100575.csv | ✓ supp-ERP005860_SRP100575.xlsx | ✓ | - | - |
-| PRJNA521587 | Fibromyalgia | ✓ PRJNA521587.csv | ✓ fibro_supplement.xlsx | ✓ | ✓ github.com/gonzalezem/Fibromyalgia | - |
-| PRJDB7767 | Multiple Sclerosis | ✓ PRJDB7767.csv | - | ✓ | - | - |
-| PRJNA1289847 | Cancer (FMT Trial) | ✓ PRJNA1289847.csv | - | ✓ | - | Checked (no patient data) |
-| PRJEB6997 | Rheumatoid Arthritis | ✓ PRJEB6997.csv | ✓ supp-PRJEB6997.xlsx (trap) | ✓ | - | - |
+| PRJNA375935 | Ankylosing Spondylitis | Yes (ERP005860_SRP100575.csv) | Yes (supp-ERP005860_SRP100575.xlsx) | Yes | - | - |
+| PRJNA521587 | Fibromyalgia | Yes (PRJNA521587.csv) | Yes (fibro_supplement.xlsx) | Yes | Yes (github.com/gonzalezem/Fibromyalgia) | - |
+| PRJDB7767 | Multiple Sclerosis | Yes (PRJDB7767.csv) | - | Yes | - | - |
+| PRJNA1289847 | Cancer (FMT Trial) | Yes (PRJNA1289847.csv) | - | Yes | - | Checked (no patient data) |
+| PRJEB6997 | Rheumatoid Arthritis | Yes (PRJEB6997.csv) | Yes (supp-PRJEB6997.xlsx - trap) | Yes | - | - |
