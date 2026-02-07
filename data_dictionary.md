@@ -5,13 +5,13 @@ This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 
 
 ## Studies Included (5 studies)
 
-| Study ID | Disease | Samples | Data Source |
-|----------|---------|---------|-------------|
-| PRJNA375935 | Ankylosing Spondylitis | 211 | SRA + Excel Table S1 |
-| PRJNA521587 | Fibromyalgia | 156 | SRA + GitHub supplement |
-| PRJDB7767 | Multiple Sclerosis | 118 | SRA + implicit from paper |
-| PRJNA1289847 | Cancer (FMT Trial) | 208 | SRA |
-| PRJEB6997 | Rheumatoid Arthritis | 530 | SRA + implicit from paper |
+| Study ID | Disease | Samples | Paper | Data Sources |
+|----------|---------|---------|-------|--------------|
+| PRJNA375935 | Ankylosing Spondylitis | 211 | Wen C, et al. (2017) | CSV, Excel (Table S1), PDF |
+| PRJNA521587 | Fibromyalgia | 156 | Minerbi A, et al. (2019) | CSV, GitHub Excel, PDF |
+| PRJDB7767 | Multiple Sclerosis | 118 | Takewaki D, et al. (2020) | CSV, PDF |
+| PRJNA1289847 | Cancer (FMT Trial) | 208 | FMT-LUMINate (2025) | CSV, PDF |
+| PRJEB6997 | Rheumatoid Arthritis | 530 | Zhang X, et al. (2015) | CSV, Excel (trap), PDF |
 
 ## Required Columns (Holobiome Standard)
 
@@ -96,10 +96,10 @@ This document defines all columns in harmonized_metadata.tsv (1,223 samples, 28 
 
 ## Data Sources by Study
 
-| Study ID | Disease | Primary Source | Supplement Source | Implicit Data |
-|----------|---------|----------------|-------------------|---------------|
-| PRJNA375935 | Ankylosing Spondylitis | SRA CSV | Excel Table S1 | - |
-| PRJNA521587 | Fibromyalgia | SRA CSV | GitHub | ethnicity, antibiotic_status |
-| PRJDB7767 | Multiple Sclerosis | SRA CSV | - | antibiotic_status, relapse_status |
-| PRJNA1289847 | Cancer (FMT Trial) | SRA CSV | - | - |
-| PRJEB6997 | Rheumatoid Arthritis | SRA CSV | - | ethnicity, age_range, antibiotic_status |
+| Study ID | Disease | CSV | Excel | PDF | GitHub | Zenodo |
+|----------|---------|-----|-------|-----|--------|--------|
+| PRJNA375935 | Ankylosing Spondylitis | ✓ ERP005860_SRP100575.csv | ✓ supp-ERP005860_SRP100575.xlsx | ✓ | - | - |
+| PRJNA521587 | Fibromyalgia | ✓ PRJNA521587.csv | ✓ fibro_supplement.xlsx | ✓ | ✓ github.com/gonzalezem/Fibromyalgia | - |
+| PRJDB7767 | Multiple Sclerosis | ✓ PRJDB7767.csv | - | ✓ | - | - |
+| PRJNA1289847 | Cancer (FMT Trial) | ✓ PRJNA1289847.csv | - | ✓ | - | Checked (no patient data) |
+| PRJEB6997 | Rheumatoid Arthritis | ✓ PRJEB6997.csv | ✓ supp-PRJEB6997.xlsx (trap) | ✓ | - | - |

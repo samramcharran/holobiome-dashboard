@@ -14,18 +14,38 @@ def load_data():
 
 df = load_data()
 
-# Map disease to study ID
-disease_to_study = {
-    'Ankylosing Spondylitis': 'PRJNA375935',
-    'Fibromyalgia': 'PRJNA521587',
-    'Multiple Sclerosis': 'PRJDB7767',
-    'Cancer (FMT Trial)': 'PRJNA1289847',
-    'Rheumatoid Arthritis': 'PRJEB6997'
+# Map disease to study ID and data sources
+study_info = {
+    'Ankylosing Spondylitis': {
+        'study_id': 'PRJNA375935',
+        'paper': 'Wen C, et al. (2017)',
+        'sources': 'CSV, Excel, PDF'
+    },
+    'Fibromyalgia': {
+        'study_id': 'PRJNA521587',
+        'paper': 'Minerbi A, et al. (2019)',
+        'sources': 'CSV, GitHub, PDF'
+    },
+    'Multiple Sclerosis': {
+        'study_id': 'PRJDB7767',
+        'paper': 'Takewaki D, et al. (2020)',
+        'sources': 'CSV, PDF'
+    },
+    'Cancer (FMT Trial)': {
+        'study_id': 'PRJNA1289847',
+        'paper': 'FMT-LUMINate (2025)',
+        'sources': 'CSV, PDF'
+    },
+    'Rheumatoid Arthritis': {
+        'study_id': 'PRJEB6997',
+        'paper': 'Zhang X, et al. (2015)',
+        'sources': 'CSV, Excel, PDF'
+    }
 }
 
-study_to_disease = {v: k for k, v in disease_to_study.items()}
+disease_to_study = {k: v['study_id'] for k, v in study_info.items()}
 
-# Sidebar filter - just disease names
+# Sidebar filter
 st.sidebar.header("Filters")
 disease_options = ["All"] + sorted(disease_to_study.keys())
 selected_disease = st.sidebar.selectbox("Disease", disease_options)
@@ -45,14 +65,17 @@ col3.metric("With BMI", filtered_df["bmi"].notna().sum())
 col4.metric("With Age", filtered_df["host_age"].notna().sum())
 
 if selected_disease == "All":
-    # Study Summary Table
+    # Study Summary Table with paper and sources
     st.header("Study Overview")
     summary_data = []
-    for disease, study_id in disease_to_study.items():
+    for disease, info in study_info.items():
+        study_id = info['study_id']
         study_df = df[df['study_id'] == study_id]
         summary_data.append({
             'Disease': disease,
             'Study ID': study_id,
+            'Paper': info['paper'],
+            'Sources': info['sources'],
             'Samples': len(study_df),
             'With Age': study_df['host_age'].notna().sum(),
             'With BMI': study_df['bmi'].notna().sum()
@@ -62,16 +85,18 @@ if selected_disease == "All":
 
     # Samples per Study Bar Chart
     st.header("Samples by Disease")
-    fig1 = px.bar(summary_df, x='Disease', y='Samples', color='Samples', 
+    chart_df = summary_df[['Disease', 'Samples']].copy()
+    fig1 = px.bar(chart_df, x='Disease', y='Samples', color='Samples', 
                   color_continuous_scale='Viridis',
-                  hover_data=['Study ID'])
+                  hover_data=['Disease'])
     st.plotly_chart(fig1, use_container_width=True)
 
     # Forensics Heatmap
     st.header("Data Completeness Heatmap")
     clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", "timepoint"]
     completeness_data = []
-    for disease, study_id in disease_to_study.items():
+    for disease, info in study_info.items():
+        study_id = info['study_id']
         study_df = df[df["study_id"] == study_id]
         row = {"Disease": disease}
         for col in clinical_cols:
@@ -88,15 +113,16 @@ if selected_disease == "All":
 
     # Disease Distribution Pie
     st.header("Disease Distribution")
-    fig3 = px.pie(summary_df, names='Disease', values='Samples')
+    pie_df = summary_df[['Disease', 'Samples']].copy()
+    fig3 = px.pie(pie_df, names='Disease', values='Samples')
     st.plotly_chart(fig3, use_container_width=True)
     
     st.info("Select a specific disease from the sidebar to view detailed demographics and sample data.")
 
 else:
     # Show study ID for selected disease
-    study_id = disease_to_study[selected_disease]
-    st.subheader(f"Study ID: {study_id}")
+    info = study_info[selected_disease]
+    st.subheader(f"Study ID: {info['study_id']}")
     
     # Demographics
     st.header("Demographics")
