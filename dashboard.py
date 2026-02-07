@@ -9,7 +9,7 @@ st.caption("Educational project - Data from public repositories")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("harmonized_metadata.tsv", sep="\t", na_values=["NA", ""])
+    df = pd.read_csv("harmonized_metadata.tsv", sep="\t")
     return df
 
 df = load_data()
@@ -153,7 +153,13 @@ else:
     else:
         st.write("No BMI data for this study.")
 
-    # Data Table - show all columns with NA
+    # Data Table
     st.header("Sample Data")
-    display_df = filtered_df.fillna("NA")
+    display_df = filtered_df.copy()
+    cols_to_keep = []
+    for col in display_df.columns:
+        if display_df[col].notna().sum() > 0:
+            cols_to_keep.append(col)
+
+    display_df = display_df[cols_to_keep]
     st.dataframe(display_df.head(50), use_container_width=True)
