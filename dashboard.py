@@ -14,20 +14,15 @@ def load_data():
 
 df = load_data()
 
-# Sidebar filters
+# Sidebar filter
 st.sidebar.header("Filters")
 diseases = ["All"] + sorted(df["disease_status"].dropna().unique().tolist())
 selected_disease = st.sidebar.selectbox("Disease Status", diseases)
 
-studies = ["All"] + sorted(df["study_id"].dropna().unique().tolist())
-selected_study = st.sidebar.selectbox("Study", studies)
-
-# Apply filters
+# Apply filter
 filtered_df = df.copy()
 if selected_disease != "All":
     filtered_df = filtered_df[filtered_df["disease_status"] == selected_disease]
-if selected_study != "All":
-    filtered_df = filtered_df[filtered_df["study_id"] == selected_study]
 
 # Metrics
 st.header("Overview")
@@ -86,6 +81,15 @@ if len(bmi_df) > 0:
 else:
     st.write("No BMI data for selected filters.")
 
-# Data Table
+# Data Table - only show columns with data
 st.header("Sample Data")
-st.dataframe(filtered_df.head(50), use_container_width=True)
+
+# Remove columns that are all None/NaN for this filtered data
+display_df = filtered_df.copy()
+cols_to_keep = []
+for col in display_df.columns:
+    if display_df[col].notna().sum() > 0:
+        cols_to_keep.append(col)
+
+display_df = display_df[cols_to_keep]
+st.dataframe(display_df.head(50), use_container_width=True)
