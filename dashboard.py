@@ -50,11 +50,13 @@ st.plotly_chart(fig_conquest, use_container_width=True)
 # Forensics Heatmap - Data Missingness
 st.header("Forensics Heatmap: Data Completeness by Study")
 
-clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", 
-                 "antibiotic_status", "ethnicity", "age_range",
-                 "ibs", "smoking", "pain_intensity", "depression", "anxiety",
-                 "disease_duration_years", "hla_b27_status", "treatment",
-                 "relapse_status", "disease_stage"]
+# Get all clinical columns that exist in the dataframe
+possible_clinical_cols = ["host_age", "host_sex", "bmi", "disease_status", 
+                          "antibiotic_status", "ethnicity", "age_range",
+                          "ibs", "smoking", "pain_intensity", "depression", "anxiety",
+                          "disease_duration_years", "hla_b27_status", "treatment",
+                          "relapse_status", "disease_stage"]
+clinical_cols = [col for col in possible_clinical_cols if col in df.columns]
 
 # Calculate completeness percentage by study
 completeness_data = []
@@ -62,11 +64,8 @@ for study in df["study_id"].unique():
     study_df = df[df["study_id"] == study]
     row = {"study_id": study}
     for col in clinical_cols:
-        if col in study_df.columns:
-            pct = (study_df[col].notna().sum() / len(study_df)) * 100
-            row[col] = pct
-        else:
-            row[col] = 0
+        pct = (study_df[col].notna().sum() / len(study_df)) * 100
+        row[col] = pct
     completeness_data.append(row)
 
 completeness_df = pd.DataFrame(completeness_data)
@@ -111,27 +110,37 @@ if len(bmi_df) > 0:
 else:
     st.write("No BMI data available for selected filters.")
 
-# Ethnicity and Antibiotic Status
+# Ethnicity and Antibiotic Status (only if columns exist)
 st.header("Implicit Data Summary")
 col1, col2 = st.columns(2)
 
 with col1:
-    eth_df = filtered_df[filtered_df["ethnicity"].notna()]
-    if len(eth_df) > 0:
-        eth_counts = eth_df["ethnicity"].value_counts().reset_index()
-        eth_counts.columns = ["ethnicity", "count"]
-        fig_eth = px.pie(eth_counts, values="count", names="ethnicity",
-                         title="Ethnicity Distribution")
-        st.plotly_chart(fig_eth, use_container_width=True)
+    if "ethnicity" in filtered_df.columns:
+        eth_df = filtered_df[filtered_df["ethnicity"].notna()]
+        if len(eth_df) > 0:
+            eth_counts = eth_df["ethnicity"].value_counts().reset_index()
+            eth_counts.columns = ["ethnicity", "count"]
+            fig_eth = px.pie(eth_counts, values="count", names="ethnicity",
+                             title="Ethnicity Distribution")
+            st.plotly_chart(fig_eth, use_container_width=True)
+        else:
+            st.write("No ethnicity data available.")
+    else:
+        st.write("Ethnicity column not available.")
 
 with col2:
-    ab_df = filtered_df[filtered_df["antibiotic_status"].notna()]
-    if len(ab_df) > 0:
-        ab_counts = ab_df["antibiotic_status"].value_counts().reset_index()
-        ab_counts.columns = ["antibiotic_status", "count"]
-        fig_ab = px.pie(ab_counts, values="count", names="antibiotic_status",
-                        title="Antibiotic Status Distribution")
-        st.plotly_chart(fig_ab, use_container_width=True)
+    if "antibiotic_status" in filtered_df.columns:
+        ab_df = filtered_df[filtered_df["antibiotic_status"].notna()]
+        if len(ab_df) > 0:
+            ab_counts = ab_df["antibiotic_status"].value_counts().reset_index()
+            ab_counts.columns = ["antibiotic_status", "count"]
+            fig_ab = px.pie(ab_counts, values="count", names="antibiotic_status",
+                            title="Antibiotic Status Distribution")
+            st.plotly_chart(fig_ab, use_container_width=True)
+        else:
+            st.write("No antibiotic status data available.")
+    else:
+        st.write("Antibiotic status column not available.")
 
 # Data Table
 st.header("Sample Data")
@@ -139,13 +148,11 @@ st.dataframe(filtered_df.head(100), use_container_width=True)
 
 # Footer
 st.markdown("---")
-st.markdown("**References and Data Sources**")
+st.markdown("**Data Sources**")
 st.markdown('''
 - PRJNA521587: Fibromyalgia (GitHub: gonzalezem/Fibromyalgia)
 - PRJNA375935: Ankylosing Spondylitis (Excel Table S1)
 - PRJDB7767: Multiple Sclerosis (SRA + implicit data)
-- PRJEB6997/PRJEB6337: Rheumatoid Arthritis (implicit data only - no bridge key)
+- PRJEB6997/PRJEB6337: Rheumatoid Arthritis (implicit data only)
 - PRJNA1289847: Cancer FMT Trial (implicit data)
-
-Data sources: NCBI SRA, BioProject, Excel supplements, GitHub repositories, implicit data from papers.
 ''')
