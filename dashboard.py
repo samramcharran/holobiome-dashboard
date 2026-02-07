@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-st.set_page_config(page_title="Holobiome Data Dashboard", layout="wide")
-st.title("🦠 Holobiome Microbiome Metadata Dashboard")
+st.set_page_config(page_title="INT-DW-01 Data Dashboard", layout="wide")
+st.title("🦠 INT-DW-01 Microbiome Dashboard")
 st.caption("Educational project - Data from public repositories")
 
 @st.cache_data
