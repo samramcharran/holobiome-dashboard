@@ -88,8 +88,9 @@ All data was obtained from publicly available sources:
 1. **PRJNA521587** - Fibromyalgia gut microbiome study
 2. **PRJNA375935** - Ankylosing Spondylitis gut microbiome study  
 3. **PRJEB6997** - Rheumatoid Arthritis oral/gut microbiome study
-4. **PRJDB7767** - Multiple Sclerosis gut microbiome study
-5. **PRJNA1289847** - FMT in Cancer immunotherapy trial
+4. **PRJEB6337** - Rheumatoid Arthritis gut microbiome study
+5. **PRJDB7767** - Multiple Sclerosis gut microbiome study
+6. **PRJNA1289847** - FMT in Cancer immunotherapy trial
 
 ### Tools Used
 - **Claude (Anthropic)** - AI assistance for data harmonization
