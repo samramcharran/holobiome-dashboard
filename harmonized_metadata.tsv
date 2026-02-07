@@ -1247,211 +1247,211 @@ PRJNA521587	Pt_Fibro_934	SAMN10886136		SRR8556971	SRA;GitHub_Supplement	30.0	Fem
 PRJNA521587	Pt_Fibro_506	SAMN10886137		SRR8556966	SRA;GitHub_Supplement	52.0	Female	Fibromyalgia	24.38237297859371				0.0	0.0	48.0	7.0	1.0	0.0	2.0	9.0	3.0				no_antibiotics_2_months	majority_caucasian	
 PRJNA521587	Pt_Fibro_185	SAMN10886138		SRR8556967	SRA;GitHub_Supplement	49.0	Female	Fibromyalgia	22.50692520775624				1.0	0.0	12.0	8.0	1.0	5.0	2.0	4.0	3.0				no_antibiotics_2_months	majority_caucasian	
 PRJNA521587	Pt_Fibro_489	SAMN10886141		SRR8556901	SRA;GitHub_Supplement	38.0	Female	Fibromyalgia	24.664919809993066				0.0	0.0	8.0	8.0	0.0	2.0	2.0	6.0	3.0				no_antibiotics_2_months	majority_caucasian	
-PRJNA1289847	FMT_L_101-001T1	SAMN49900446	T1	SRR34483855	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-T2	SAMN49900447	T2	SRR34483854	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-T3	SAMN49900448	T3	SRR34483862	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-T4	SAMN49900449	T4	SRR34483731	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-V4	SAMN49900450	V4	SRR34483720	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-V8	SAMN49900451	V8	SRR34483797	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-001-V9	SAMN49900452	V9	SRR34483786	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-T1	SAMN49900453	T1	SRR34483711	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-T2	SAMN49900454	T2	SRR34483700	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-T3	SAMN49900455	T3	SRR34483754	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-T4	SAMN49900456	T4	SRR34483853	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-V4	SAMN49900457	V4	SRR34483842	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-V8	SAMN49900458	V8	SRR34483903	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-002-V9	SAMN49900459	V9	SRR34483892	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-T1	SAMN49900460	T1	SRR34483881	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-T2	SAMN49900461	T2	SRR34483774	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-T3	SAMN49900462	T3	SRR34483763	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-T4	SAMN49900463	T4	SRR34483823	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-V4	SAMN49900464	V4	SRR34483812	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-003-V8	SAMN49900465	V8	SRR34483873	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-006-T1	SAMN49900466	T1	SRR34483861	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-006-T2	SAMN49900467	T2	SRR34483740	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-006-T3	SAMN49900468	T3	SRR34483739	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-006-T4	SAMN49900469	T4	SRR34483738	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-006-V4	SAMN49900470	V4	SRR34483737	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-007-T1	SAMN49900471	T1	SRR34483736	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-007-T2	SAMN49900472	T2	SRR34483735	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-007-T3	SAMN49900473	T3	SRR34483734	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-007-T4	SAMN49900474	T4	SRR34483733	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-007-V4	SAMN49900475	V4	SRR34483732	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-T1	SAMN49900476	T1	SRR34483730	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-T2	SAMN49900477	T2	SRR34483729	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-T3	SAMN49900478	T3	SRR34483728	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-T4	SAMN49900479	T4	SRR34483727	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-V4	SAMN49900480	V4	SRR34483726	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-008-V8	SAMN49900481	V8	SRR34483725	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-011-AE	SAMN49900482	AE	SRR34483724	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-011-T1-V2	SAMN49900483	V2	SRR34483723	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-011-T2-V5	SAMN49900484	V5	SRR34483722	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-011-T4-V7	SAMN49900485	V7	SRR34483721	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-011-V4	SAMN49900486	V4	SRR34483807	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-012-T1-V2	SAMN49900487	V2.2	SRR34483806	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-012-T2-V5	SAMN49900488	V5	SRR34483805	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-012-T4-V7	SAMN49900489	V7	SRR34483804	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-012-V4	SAMN49900490	V4.2	SRR34483803	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-013-T1-V2	SAMN49900491	V2	SRR34483802	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-013-T3-V6	SAMN49900492	V6	SRR34483801	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-013-T4-V7	SAMN49900493	V7.2	SRR34483800	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-013-V4	SAMN49900494	V4	SRR34483799	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-015-T1-V2	SAMN49900495	V2	SRR34483798	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-016-V4	SAMN49900496	V4	SRR34483796	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-017-T1-V2	SAMN49900497	V2	SRR34483795	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-017-T2-V5	SAMN49900498	V5	SRR34483794	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-018-T1-V2	SAMN49900499	V2	SRR34483793	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-018-T2-V5	SAMN49900500	V5	SRR34483792	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-018-V4	SAMN49900501	V4	SRR34483791	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_101-17-V4	SAMN49900502	V4	SRR34483790	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-T1	SAMN49900503	T1	SRR34483789	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-T3	SAMN49900504	T3	SRR34483788	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-T4	SAMN49900505	T4	SRR34483787	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-V4	SAMN49900506	V4	SRR34483785	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-V8	SAMN49900507	V8	SRR34483784	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-001-V9	SAMN49900508	V9	SRR34483719	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-003-T1	SAMN49900509	T1	SRR34483718	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-003-T2	SAMN49900510	T2	SRR34483717	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-003-T4	SAMN49900511	T4	SRR34483716	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-003-V4	SAMN49900512	V4	SRR34483715	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-003-V8	SAMN49900513	V8	SRR34483714	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-004-T1	SAMN49900514	T1	SRR34483713	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-004-T2	SAMN49900515	T2	SRR34483712	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-004-T3	SAMN49900516	T3	SRR34483710	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-004-T4	SAMN49900517	T4	SRR34483709	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-004-V4	SAMN49900518	V4	SRR34483708	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-005-T1	SAMN49900519	T1	SRR34483707	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-005-T4	SAMN49900520	T4	SRR34483706	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-005-V4	SAMN49900521	V4	SRR34483705	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-005-V8	SAMN49900522	V8	SRR34483704	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-006-T1	SAMN49900523	T1	SRR34483703	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-006-T2	SAMN49900524	T2	SRR34483702	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-006-T3	SAMN49900525	T3	SRR34483701	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-006-T4	SAMN49900526	T4	SRR34483699	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-006-V4	SAMN49900527	V4	SRR34483698	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-009-T1	SAMN49900528	T1	SRR34483697	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-009-T2	SAMN49900529	T2	SRR34483696	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-009-T3	SAMN49900530	T3	SRR34483760	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-009-T4	SAMN49900531	T4	SRR34483759	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-009-V8	SAMN49900532	V8	SRR34483758	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-011-T1-V2	SAMN49900533	V2	SRR34483757	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-011-T2-V5	SAMN49900534	V5	SRR34483756	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-011-V4	SAMN49900535	V4	SRR34483755	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-012-T2-V5	SAMN49900536	V5	SRR34483753	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_102-012-V4	SAMN49900537	V4	SRR34483752	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-001T1	SAMN49900538	T1	SRR34483751	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-001T2	SAMN49900539	T2	SRR34483750	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-001T3	SAMN49900540	T3	SRR34483749	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-001T4	SAMN49900541	T4	SRR34483748	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-002T1	SAMN49900542	T1	SRR34483747	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-002T2	SAMN49900543	T2	SRR34483746	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-002T3	SAMN49900544	T3	SRR34483745	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-002T4	SAMN49900545	T4	SRR34483744	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-005T1	SAMN49900546	T1	SRR34483852	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-005T2	SAMN49900547	T2	SRR34483851	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_103-005T3	SAMN49900548	T3	SRR34483850	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-002-90-D1	SAMN49900549	D1_1	SRR34483849	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-003-91-D5	SAMN49900550	D5_1	SRR34483848	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-006-108-D5	SAMN49900551	D5_2	SRR34483847	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-007-127-D1	SAMN49900552	D1_2	SRR34483846	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-008-130-D1	SAMN49900553	D1_3	SRR34483845	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-011-158-D2	SAMN49900554	D2_1	SRR34483844	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-012-159-D2	SAMN49900555	D2_2	SRR34483843	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-101-013-160-D2	SAMN49900556	D2_3	SRR34483841	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-001-104-D5	SAMN49900557	D5_3	SRR34483840	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-003-111-D1	SAMN49900558	D1_4	SRR34483839	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-004-106-D5	SAMN49900559	D5_4	SRR34483838	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-005-115-D5	SAMN49900560	D5_5	SRR34483837	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-006-119-D5	SAMN49900561	D5_6	SRR34483836	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-009-133-D7	SAMN49900562	D7_1	SRR34483835	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-011-162-D2	SAMN49900563	D2_4	SRR34483834	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-102-012-165-D10	SAMN49900564	D10_1	SRR34483833	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-103-001-125-D1	SAMN49900565	D1_5	SRR34483831	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	FMT_L_FMT-103-002-126-D1	SAMN49900566	D1_6	SRR34483902	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-013-V9	SAMN49900567	V9	SRR34483901	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-016-AEs	SAMN49900568	AEs	SRR34483900	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-017-V9	SAMN49900569	V9	SRR34483899	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-018-V9	SAMN49900570	V9.2	SRR34483898	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-024-237-D13	SAMN49900571	D13_1	SRR34483897	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-024-V2	SAMN49900572	V2	SRR34483896	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-024-V4	SAMN49900573	V4	SRR34483895	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-024-V5	SAMN49900574	V5	SRR34483894	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-024-V7	SAMN49900575	V7	SRR34483893	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-025-241-D13	SAMN49900576	D13_2	SRR34483891	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-025-V2	SAMN49900577	V2	SRR34483890	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-025-V4	SAMN49900578	V4	SRR34483889	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-025-V5	SAMN49900579	V5	SRR34483888	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-025-V7	SAMN49900580	V7	SRR34483887	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-026-247-D7	SAMN49900581	D7_2	SRR34483886	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-026-V2	SAMN49900582	V2	SRR34483885	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-026-V4	SAMN49900583	V4	SRR34483884	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-026-V5	SAMN49900584	V5	SRR34483883	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-027-258-D15	SAMN49900585	D15_1	SRR34483882	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-027-V2	SAMN49900586	V2	SRR34483880	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-027-V4	SAMN49900587	V4	SRR34483783	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-101-027-V5	SAMN49900588	V5	SRR34483782	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-015-224-D11	SAMN49900589	D11_1	SRR34483781	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-015-3rd-ICI	SAMN49900590	3rd-ICI	SRR34483780	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-016-2nd-ICI	SAMN49900591	2nd-ICI	SRR34483779	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-016-Uns	SAMN49900592	Uns	SRR34483778	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-016-V2	SAMN49900593	V2	SRR34483777	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-102-016-V6	SAMN49900594	V6	SRR34483776	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-103-009-V8	SAMN49900595	V8	SRR34483775	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-103-010-6m	SAMN49900596	6m	SRR34483773	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-103-011-227-D1	SAMN49900597	D1_7	SRR34483772	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-103-011-Baseline	SAMN49900598	Baseline	SRR34483771	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-106-001-V4	SAMN49900599	V4	SRR34483770	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-106-007	SAMN49900600	106-007	SRR34483769	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-106-007-248-D7	SAMN49900601	D7_3	SRR34483768	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-106-007-V4	SAMN49900602	V4	SRR34483767	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR_FMT-106-007-V5	SAMN49900603	V5	SRR34483766	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-D_FMT101-015-171-101-016-172-D10	SAMN49900604	D10_2	SRR34483765	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-D_FMT-101-018-176-D9	SAMN49900605	D9_1	SRR34483764	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-D_FMT-101-022-201-D9	SAMN49900606	D9_2	SRR34483762	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-D_FMT-102-014-193-D5	SAMN49900607	D5_7	SRR34483761	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-D_FMT-106-001-198-D9	SAMN49900608	D9_3	SRR34483832	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-007-V9	SAMN49900609	V9	SRR34483830	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-013-V9	SAMN49900610	V9.2	SRR34483829	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-016-T4	SAMN49900611	T4	SRR34483828	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-017-T4	SAMN49900612	T4	SRR34483827	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-102-006-V8	SAMN49900613	V8	SRR34483826	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-002-12mois	SAMN49900614	12mois	SRR34483825	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-002-6mois	SAMN49900615	6mois	SRR34483824	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-005-3ICI	SAMN49900616	3ICI	SRR34483822	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-005-3mois	SAMN49900617	3mois	SRR34483821	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-008	SAMN49900618	103-008	SRR34483820	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-009Cycle5	SAMN49900619	Cycle5	SRR34483819	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-009-V2	SAMN49900620	V2	SRR34483818	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-1ICI	SAMN49900621	1ICI	SRR34483817	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-2ICI	SAMN49900622	2ICI	SRR34483816	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-3ICI	SAMN49900623	3ICI	SRR34483815	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-3mois	SAMN49900624	3mois	SRR34483814	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-V2	SAMN49900625	V2	SRR34483813	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-013-V8	SAMN49900626	V8	SRR34483811	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-018-V7	SAMN49900627	V7	SRR34483810	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V4	SAMN49900628	V4	SRR34483809	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V5	SAMN49900629	V5	SRR34483808	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V6	SAMN49900630	V6	SRR34483879	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V2	SAMN49900631	V2	SRR34483878	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V4	SAMN49900632	V4	SRR34483877	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V5	SAMN49900633	V5	SRR34483876	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-003-V9	SAMN49900634	V9	SRR34483875	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-005-V9	SAMN49900635	V9	SRR34483874	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-009-V4	SAMN49900636	V4	SRR34483872	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-009-V9	SAMN49900637	V9	SRR34483871	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-011-T4	SAMN49900638	T4	SRR34483870	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-012-T1	SAMN49900639	T1	SRR34483869	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-012-T4	SAMN49900640	T4	SRR34483868	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-013-V2	SAMN49900641	V2	SRR34483867	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-013-V4	SAMN49900642	V4	SRR34483866	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-T1	SAMN49900643	T1	SRR34483865	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-T3	SAMN49900644	T3	SRR34483864	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-V4	SAMN49900645	V4	SRR34483863	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-015-V2	SAMN49900646	V2	SRR34483860	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-015-V4	SAMN49900647	V4	SRR34483859	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V2	SAMN49900648	V2	SRR34483858	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V4	SAMN49900649	V4	SRR34483857	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V5	SAMN49900650	V5	SRR34483856	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V7	SAMN49900651	V7	SRR34483743	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FTM-101-012-T1	SAMN49900652	T1	SRR34483742	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
-PRJNA1289847	ONCO_IGR-CAN-M_FTM-101-021-T1	SAMN49900653	T1	SRR34483741	SRA			Cancer (FMT Trial)				treatment_naive_at_enrollment											IV_or_unresectable	18+			
+PRJNA1289847	FMT_L_101-001T1	SAMN49900446	T1	SRR34483855	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-T2	SAMN49900447	T2	SRR34483854	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-T3	SAMN49900448	T3	SRR34483862	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-T4	SAMN49900449	T4	SRR34483731	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-V4	SAMN49900450	V4	SRR34483720	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-V8	SAMN49900451	V8	SRR34483797	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-001-V9	SAMN49900452	V9	SRR34483786	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-T1	SAMN49900453	T1	SRR34483711	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-T2	SAMN49900454	T2	SRR34483700	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-T3	SAMN49900455	T3	SRR34483754	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-T4	SAMN49900456	T4	SRR34483853	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-V4	SAMN49900457	V4	SRR34483842	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-V8	SAMN49900458	V8	SRR34483903	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-002-V9	SAMN49900459	V9	SRR34483892	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-T1	SAMN49900460	T1	SRR34483881	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-T2	SAMN49900461	T2	SRR34483774	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-T3	SAMN49900462	T3	SRR34483763	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-T4	SAMN49900463	T4	SRR34483823	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-V4	SAMN49900464	V4	SRR34483812	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-003-V8	SAMN49900465	V8	SRR34483873	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-006-T1	SAMN49900466	T1	SRR34483861	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-006-T2	SAMN49900467	T2	SRR34483740	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-006-T3	SAMN49900468	T3	SRR34483739	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-006-T4	SAMN49900469	T4	SRR34483738	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-006-V4	SAMN49900470	V4	SRR34483737	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-007-T1	SAMN49900471	T1	SRR34483736	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-007-T2	SAMN49900472	T2	SRR34483735	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-007-T3	SAMN49900473	T3	SRR34483734	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-007-T4	SAMN49900474	T4	SRR34483733	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-007-V4	SAMN49900475	V4	SRR34483732	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-T1	SAMN49900476	T1	SRR34483730	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-T2	SAMN49900477	T2	SRR34483729	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-T3	SAMN49900478	T3	SRR34483728	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-T4	SAMN49900479	T4	SRR34483727	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-V4	SAMN49900480	V4	SRR34483726	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-008-V8	SAMN49900481	V8	SRR34483725	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-011-AE	SAMN49900482	AE	SRR34483724	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-011-T1-V2	SAMN49900483	V2	SRR34483723	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-011-T2-V5	SAMN49900484	V5	SRR34483722	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-011-T4-V7	SAMN49900485	V7	SRR34483721	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-011-V4	SAMN49900486	V4	SRR34483807	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-012-T1-V2	SAMN49900487	V2.2	SRR34483806	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-012-T2-V5	SAMN49900488	V5	SRR34483805	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-012-T4-V7	SAMN49900489	V7	SRR34483804	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-012-V4	SAMN49900490	V4.2	SRR34483803	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-013-T1-V2	SAMN49900491	V2	SRR34483802	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-013-T3-V6	SAMN49900492	V6	SRR34483801	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-013-T4-V7	SAMN49900493	V7.2	SRR34483800	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-013-V4	SAMN49900494	V4	SRR34483799	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-015-T1-V2	SAMN49900495	V2	SRR34483798	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-016-V4	SAMN49900496	V4	SRR34483796	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-017-T1-V2	SAMN49900497	V2	SRR34483795	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-017-T2-V5	SAMN49900498	V5	SRR34483794	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-018-T1-V2	SAMN49900499	V2	SRR34483793	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-018-T2-V5	SAMN49900500	V5	SRR34483792	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-018-V4	SAMN49900501	V4	SRR34483791	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_101-17-V4	SAMN49900502	V4	SRR34483790	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-T1	SAMN49900503	T1	SRR34483789	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-T3	SAMN49900504	T3	SRR34483788	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-T4	SAMN49900505	T4	SRR34483787	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-V4	SAMN49900506	V4	SRR34483785	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-V8	SAMN49900507	V8	SRR34483784	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-001-V9	SAMN49900508	V9	SRR34483719	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-003-T1	SAMN49900509	T1	SRR34483718	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-003-T2	SAMN49900510	T2	SRR34483717	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-003-T4	SAMN49900511	T4	SRR34483716	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-003-V4	SAMN49900512	V4	SRR34483715	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-003-V8	SAMN49900513	V8	SRR34483714	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-004-T1	SAMN49900514	T1	SRR34483713	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-004-T2	SAMN49900515	T2	SRR34483712	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-004-T3	SAMN49900516	T3	SRR34483710	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-004-T4	SAMN49900517	T4	SRR34483709	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-004-V4	SAMN49900518	V4	SRR34483708	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-005-T1	SAMN49900519	T1	SRR34483707	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-005-T4	SAMN49900520	T4	SRR34483706	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-005-V4	SAMN49900521	V4	SRR34483705	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-005-V8	SAMN49900522	V8	SRR34483704	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-006-T1	SAMN49900523	T1	SRR34483703	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-006-T2	SAMN49900524	T2	SRR34483702	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-006-T3	SAMN49900525	T3	SRR34483701	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-006-T4	SAMN49900526	T4	SRR34483699	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-006-V4	SAMN49900527	V4	SRR34483698	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-009-T1	SAMN49900528	T1	SRR34483697	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-009-T2	SAMN49900529	T2	SRR34483696	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-009-T3	SAMN49900530	T3	SRR34483760	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-009-T4	SAMN49900531	T4	SRR34483759	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-009-V8	SAMN49900532	V8	SRR34483758	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-011-T1-V2	SAMN49900533	V2	SRR34483757	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-011-T2-V5	SAMN49900534	V5	SRR34483756	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-011-V4	SAMN49900535	V4	SRR34483755	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-012-T2-V5	SAMN49900536	V5	SRR34483753	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_102-012-V4	SAMN49900537	V4	SRR34483752	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-001T1	SAMN49900538	T1	SRR34483751	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-001T2	SAMN49900539	T2	SRR34483750	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-001T3	SAMN49900540	T3	SRR34483749	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-001T4	SAMN49900541	T4	SRR34483748	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-002T1	SAMN49900542	T1	SRR34483747	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-002T2	SAMN49900543	T2	SRR34483746	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-002T3	SAMN49900544	T3	SRR34483745	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-002T4	SAMN49900545	T4	SRR34483744	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-005T1	SAMN49900546	T1	SRR34483852	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-005T2	SAMN49900547	T2	SRR34483851	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_103-005T3	SAMN49900548	T3	SRR34483850	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-002-90-D1	SAMN49900549	D1_1	SRR34483849	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-003-91-D5	SAMN49900550	D5_1	SRR34483848	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-006-108-D5	SAMN49900551	D5_2	SRR34483847	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-007-127-D1	SAMN49900552	D1_2	SRR34483846	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-008-130-D1	SAMN49900553	D1_3	SRR34483845	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-011-158-D2	SAMN49900554	D2_1	SRR34483844	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-012-159-D2	SAMN49900555	D2_2	SRR34483843	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-101-013-160-D2	SAMN49900556	D2_3	SRR34483841	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-001-104-D5	SAMN49900557	D5_3	SRR34483840	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-003-111-D1	SAMN49900558	D1_4	SRR34483839	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-004-106-D5	SAMN49900559	D5_4	SRR34483838	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-005-115-D5	SAMN49900560	D5_5	SRR34483837	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-006-119-D5	SAMN49900561	D5_6	SRR34483836	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-009-133-D7	SAMN49900562	D7_1	SRR34483835	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-011-162-D2	SAMN49900563	D2_4	SRR34483834	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-102-012-165-D10	SAMN49900564	D10_1	SRR34483833	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-103-001-125-D1	SAMN49900565	D1_5	SRR34483831	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	FMT_L_FMT-103-002-126-D1	SAMN49900566	D1_6	SRR34483902	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-013-V9	SAMN49900567	V9	SRR34483901	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-016-AEs	SAMN49900568	AEs	SRR34483900	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-017-V9	SAMN49900569	V9	SRR34483899	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-018-V9	SAMN49900570	V9.2	SRR34483898	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-024-237-D13	SAMN49900571	D13_1	SRR34483897	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-024-V2	SAMN49900572	V2	SRR34483896	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-024-V4	SAMN49900573	V4	SRR34483895	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-024-V5	SAMN49900574	V5	SRR34483894	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-024-V7	SAMN49900575	V7	SRR34483893	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-025-241-D13	SAMN49900576	D13_2	SRR34483891	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-025-V2	SAMN49900577	V2	SRR34483890	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-025-V4	SAMN49900578	V4	SRR34483889	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-025-V5	SAMN49900579	V5	SRR34483888	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-025-V7	SAMN49900580	V7	SRR34483887	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-026-247-D7	SAMN49900581	D7_2	SRR34483886	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-026-V2	SAMN49900582	V2	SRR34483885	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-026-V4	SAMN49900583	V4	SRR34483884	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-026-V5	SAMN49900584	V5	SRR34483883	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-027-258-D15	SAMN49900585	D15_1	SRR34483882	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-027-V2	SAMN49900586	V2	SRR34483880	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-027-V4	SAMN49900587	V4	SRR34483783	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-101-027-V5	SAMN49900588	V5	SRR34483782	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-015-224-D11	SAMN49900589	D11_1	SRR34483781	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-015-3rd-ICI	SAMN49900590	3rd-ICI	SRR34483780	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-016-2nd-ICI	SAMN49900591	2nd-ICI	SRR34483779	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-016-Uns	SAMN49900592	Uns	SRR34483778	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-016-V2	SAMN49900593	V2	SRR34483777	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-102-016-V6	SAMN49900594	V6	SRR34483776	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-103-009-V8	SAMN49900595	V8	SRR34483775	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-103-010-6m	SAMN49900596	6m	SRR34483773	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-103-011-227-D1	SAMN49900597	D1_7	SRR34483772	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-103-011-Baseline	SAMN49900598	Baseline	SRR34483771	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-106-001-V4	SAMN49900599	V4	SRR34483770	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-106-007	SAMN49900600	106-007	SRR34483769	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-106-007-248-D7	SAMN49900601	D7_3	SRR34483768	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-106-007-V4	SAMN49900602	V4	SRR34483767	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR_FMT-106-007-V5	SAMN49900603	V5	SRR34483766	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-D_FMT101-015-171-101-016-172-D10	SAMN49900604	D10_2	SRR34483765	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-D_FMT-101-018-176-D9	SAMN49900605	D9_1	SRR34483764	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-D_FMT-101-022-201-D9	SAMN49900606	D9_2	SRR34483762	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-D_FMT-102-014-193-D5	SAMN49900607	D5_7	SRR34483761	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-D_FMT-106-001-198-D9	SAMN49900608	D9_3	SRR34483832	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-007-V9	SAMN49900609	V9	SRR34483830	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-013-V9	SAMN49900610	V9.2	SRR34483829	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-016-T4	SAMN49900611	T4	SRR34483828	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-101-017-T4	SAMN49900612	T4	SRR34483827	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-102-006-V8	SAMN49900613	V8	SRR34483826	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-002-12mois	SAMN49900614	12mois	SRR34483825	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-002-6mois	SAMN49900615	6mois	SRR34483824	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-005-3ICI	SAMN49900616	3ICI	SRR34483822	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-005-3mois	SAMN49900617	3mois	SRR34483821	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-008	SAMN49900618	103-008	SRR34483820	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-009Cycle5	SAMN49900619	Cycle5	SRR34483819	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-009-V2	SAMN49900620	V2	SRR34483818	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-1ICI	SAMN49900621	1ICI	SRR34483817	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-2ICI	SAMN49900622	2ICI	SRR34483816	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-3ICI	SAMN49900623	3ICI	SRR34483815	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-3mois	SAMN49900624	3mois	SRR34483814	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-L_FMT-103-010-V2	SAMN49900625	V2	SRR34483813	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-013-V8	SAMN49900626	V8	SRR34483811	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-018-V7	SAMN49900627	V7	SRR34483810	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V4	SAMN49900628	V4	SRR34483809	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V5	SAMN49900629	V5	SRR34483808	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-021-V6	SAMN49900630	V6	SRR34483879	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V2	SAMN49900631	V2	SRR34483878	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V4	SAMN49900632	V4	SRR34483877	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-101-022-V5	SAMN49900633	V5	SRR34483876	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-003-V9	SAMN49900634	V9	SRR34483875	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-005-V9	SAMN49900635	V9	SRR34483874	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-009-V4	SAMN49900636	V4	SRR34483872	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-009-V9	SAMN49900637	V9	SRR34483871	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-011-T4	SAMN49900638	T4	SRR34483870	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-012-T1	SAMN49900639	T1	SRR34483869	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-012-T4	SAMN49900640	T4	SRR34483868	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-013-V2	SAMN49900641	V2	SRR34483867	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-013-V4	SAMN49900642	V4	SRR34483866	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-T1	SAMN49900643	T1	SRR34483865	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-T3	SAMN49900644	T3	SRR34483864	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-014-V4	SAMN49900645	V4	SRR34483863	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-015-V2	SAMN49900646	V2	SRR34483860	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-102-015-V4	SAMN49900647	V4	SRR34483859	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V2	SAMN49900648	V2	SRR34483858	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V4	SAMN49900649	V4	SRR34483857	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V5	SAMN49900650	V5	SRR34483856	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FMT-105-001-V7	SAMN49900651	V7	SRR34483743	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FTM-101-012-T1	SAMN49900652	T1	SRR34483742	SRA			Cancer (FMT Trial)																			
+PRJNA1289847	ONCO_IGR-CAN-M_FTM-101-021-T1	SAMN49900653	T1	SRR34483741	SRA			Cancer (FMT Trial)																			
